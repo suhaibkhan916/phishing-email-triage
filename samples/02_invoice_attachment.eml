@@ -1,0 +1,32 @@
+From: "Accounts Payable" <billing@acme-supplies.test>
+To: ap@victim-corp.test
+Subject: Invoice 3381 - payment overdue
+Date: Mon, 03 Nov 2025 09:14:22 +0000
+Message-ID: <3381.inv@acme-supplies.test>
+Return-Path: <billing@acme-supplies.test>
+Reply-To: billing@acme-supplies.test
+Authentication-Results:
+ mx-edge.victim-corp.test; spf=softfail; dkim=none; dmarc=none
+Received: from mx-edge.victim-corp.test ([10.0.0.5]) by
+ mailbox.victim-corp.test with LMTP; Mon, 03 Nov 2025 09:14:22 +0000
+Received: from relay7.acme-supplies.test (unknown [198.51.100.77]) by
+ mx-edge.victim-corp.test with ESMTP; Mon, 03 Nov 2025 09:14:22 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0473125670757886110=="
+
+--===============0473125670757886110==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Final notice: invoice 3381 is overdue. Open the attached invoice immediately.
+
+--===============0473125670757886110==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_3381.pdf.js"
+MIME-Version: 1.0
+
+Ly8gc3ludGhldGljIHRyYWluaW5nIHNhbXBsZSAtIGhhcm1sZXNzIHRleHQgZmlsZSwgbm90IGEg
+c2NyaXB0Cg==
+
+--===============0473125670757886110==--

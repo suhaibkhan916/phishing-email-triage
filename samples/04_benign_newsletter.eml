@@ -1,0 +1,31 @@
+From: "Example Weekly" <newsletter@example.com>
+To: j.rivera@victim-corp.test
+Subject: October product update
+Date: Mon, 03 Nov 2025 09:14:22 +0000
+Message-ID: <oct.update@example.com>
+Return-Path: <newsletter@example.com>
+Authentication-Results:
+ mx-edge.victim-corp.test; spf=pass; dkim=pass; dmarc=pass
+Received: from mx-edge.victim-corp.test ([10.0.0.5]) by
+ mailbox.victim-corp.test with LMTP; Mon, 03 Nov 2025 09:14:22 +0000
+Received: from mail.example.com (unknown [192.0.2.25]) by
+ mx-edge.victim-corp.test with ESMTP; Mon, 03 Nov 2025 09:14:22 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4176021074064864413=="
+
+--===============4176021074064864413==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Read this month's update: https://example.com/blog/october
+
+--===============4176021074064864413==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>This month in review.</p><p><a href=3D"https://example.com/blo=
+g/october">https://example.com/blog/october</a></p></body></html>
+
+--===============4176021074064864413==--
